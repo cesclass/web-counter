@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial;
+}
+
+div#main_wrapper
+{
+    margin: auto;
+    text-align: center;
+}
+
+span#counter_span
+{
+    font-size: 28em;
+    margin-top: 0.05em;
+    margin-bottom: -0.05em; /* only numbers, no underscore*/
+}
+
+input
+{
+    text-align: center;
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+button, input
+{
+    font-size: 7em;
+    height: 2em;
+    width: 80%;
+    max-width: 8em; /* limitation */
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    border-style: solid;
+    border-width: 0.08em;
+    background-color: rgb(50, 50, 50)
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+button#count_btn:active
+{
+    border-color: rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
+    background-color: chartreuse;
+}
+
+button#decount_btn:active
+{
+    border-color: rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
+    background-color:crimson;
+}
+
+button#setcount_btn:active
+{
+    border-color: rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
+    background-color: dodgerblue;
+}
+
+button#count_btn
+{
+    color: chartreuse;
+    border-color: chartreuse;
+}
+
+button#decount_btn
+{
+    color: crimson;
+    border-color: crimson;
+}
+
+button#setcount_btn
+{
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+*:focus
+{
+    outline: none;
+}

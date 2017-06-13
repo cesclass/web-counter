@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<!--
+
+-->
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" type="image/gif" href="img/icon.png">
+  <title>COUNTER</title>
+</head>
+
+<body>
+  <div id='main_wrapper'>
+    <span id='counter_span'></span>
+      <br>
+    <button onclick=count() id='count_btn'>COUNT</button>
+      <br>
+    <button onclick=decount() id='decount_btn'>DECOUNT</button>
+    <form hidden id="setcount_form">
+      <input type="number" min="-99" max="999" id="setcount_zone" autofocus>
+    </form>
+      <br>
+    <button onclick=setcount() id="setcount_btn">SET</button>
+  </div>
+  <script type="text/javascript" src='js/counter.js'></script>
+  <script type="text/javascript" src='js/display.js'></script>
+</body>
+
+</html>
